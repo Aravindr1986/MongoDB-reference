@@ -1,8 +1,5 @@
 # Aggregation
 
-- **Date:** Wednesday, June 29, 2022
-- **Time:** 12:26 PM
-
 1. **Sum**
     - `db.BudgetCollection.aggregate([{$group:{_id:"$category",total:{$sum:"$amount"}}}])`
 2. **Average**
